@@ -1,0 +1,32 @@
+textarea {
+  min-height: 400px;
+}
+
+[class*="email-"] {
+  height: 110px;
+  border-radius: 5px;
+  border: solid thin black;
+  padding: 10px;
+  scroll-padding: 5px;
+}
+
+.email-read {
+  background-color: lightgrey;
+}
+
+.email-unread {
+  background-color: white;
+  font-weight: bold;
+}
+
+.email subject {
+  font-size: 20px;
+}
+
+.column {
+  flex: 50%;
+}
+
+.row {
+  display: flex;
+}
