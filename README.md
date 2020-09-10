@@ -1,1 +1,3 @@
 # Mail
+
+A simple functioning mail web application that supports registering for an account, sending emails, replying to emails, and archiving emails. It was made using Django for the backend with its built in SQLite database and some JavaScript for dynamic client site functionality. To access the site on a local machine, clone the project, cd into the project, and run "python manage.py runserver" in the commandline. Use the URL provided to then visit the site. This project was for Harvard's CS50 Web Programming for Python and Javascript, and such some of the code is boilerplate provided by them (mostly just the API for the application). 
